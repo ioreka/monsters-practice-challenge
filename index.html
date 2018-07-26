@@ -6,11 +6,18 @@
   </head>
   <body>
     <h1>Monstr Inc.</h1>
-    <div id='create-monster'></div>
+    <div id='create-monster'>
+      <form id="new-monster-form">
+        <input type="text" id="monster-name" placeholder="name...">
+        <input type="text" id="monster-age" placeholder="age...">
+        <input type="text" id="monster-description" placeholder="description...">
+        <input type='submit' id="create-monster" value="Create"/>
+      </form>
+    </div>
     <div id='monster-container'></div>
     <button id="back"><=</button>
     <button id="forward">=></button>
-    <!-- <script src='index.js'></script> -->
-    <script src='demo.js'></script>
+    <script src='index.js'></script>
+    <!-- <script src='demo.js'></script> -->
   </body>
 </html>
